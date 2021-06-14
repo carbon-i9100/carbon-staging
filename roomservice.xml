@@ -15,7 +15,7 @@
   <project name="carbon-i9100/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="cr-8.0" />
 
   <!-- Kernel -->
-  <project name="carbon-i9100/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="gitlab" revision="cr-8.0" />
+  <project name="carbon-i9100/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cr-8.0" />
 
   <!-- Vendor -->
   <project name="linusdan/vendor_samsung" path="vendor/samsung" remote="github" revision="10" />
