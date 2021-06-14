@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/" />
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+
+  <remove-project name="platform/system/netd" />
+  <remove-project name="CarbonROM/android_bionic" />
+  <remove-project name="platform/system/libhidl" />
+  <remove-project name="CarbonROM/android_vendor_carbon" />
+  <remove-project name="CarbonROM/android_system_sepolicy" />
+  <remove-project name="CarbonROM/android_frameworks_base" />
+  
+  <!-- Device -->
+  <project name="carbon-i9100/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="cr-8.0" />
+  <project name="carbon-i9100/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="cr-8.0" />
+
+  <!-- Kernel -->
+  <project name="carbon-i9100/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="gitlab" revision="cr-8.0" />
+
+  <!-- Vendor -->
+  <project name="linusdan/vendor_samsung" path="vendor/samsung" remote="github" revision="10" />
+
+  <!-- Extras -->     
+  <project name="carbon-i9100/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cr-8.0" />
+  <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-17.1" />
+  
+  <!-- Carbon -->
+  <project name="carbon-i9100/android_bionic" path="bionic" remote="github" revision="cr-8.0" />
+  <project name="carbon-i9100/system_libhidl" path="system/libhidl" remote="github" revision="cr-8.0" />
+  <project name="carbon-i9100/android_system_netd" path="system/netd" remote="github" revision="cr-8.0" />
+  <project name="carbon-i9100/android_vendor_carbon" path="vendor/carbon" remote="github" revision="cr-8.0" />
+  <project name="carbon-i9100/android_frameworks_base" path="frameworks/base" remote="github" revision="cr-8.0" />
+  <project name="carbon-i9100/android_system_sepolicy" path="system/sepolicy" remote="github" revision="cr-8.0" />
+</manifest>
