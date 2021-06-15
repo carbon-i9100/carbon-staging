@@ -5,10 +5,10 @@
 ```bash
 
 # Initialize local repository
-$ repo init -u https://github.com/CarbonROM/android.git -b cr-8.0
+$ repo init -u https://github.com/CarbonROM/android.git -b cr-9.0
 
 # Clone my local repo
-$ git clone https://github.com/carbon-i9100/carbon-staging.git -b primary .repo/local_manifests
+$ git clone https://github.com/carbon-i9100/carbon-staging.git -b cr-9.0 .repo/local_manifests
 
 # Sync
 $ repo sync -c --force-sync --no-clone-bundle --no-tags
